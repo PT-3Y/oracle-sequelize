@@ -1,12 +1,12 @@
 module.exports = {
-  DBTYPE:"oracle",                    //oracle|| mysql || mssql || postgresql
+  DBTYPE:"oracle",                
   HOST: 'localhost',
-  USER: "SYSTEM",                    //root for mysql|| SYSTEM for oracle || sa for mssql
-  PASSWORD: "oracle_password!!Q11",  // oracle_password!!Q11 for oracle || root for mssql ||
-  DB: "oracleDB",                    //mysqlDB, oracleDB, postgresDB, mssqlDB1
-  PORT:1521,                         //do not need for mysqlDB|| 1521 for oracle|| do not need or may need for mssql
+  USER: "SYSTEM",                  
+  PASSWORD: "oracle_password!!Q11",  
+  DB: "oracleDB",                   
+  PORT:1521,                        
   SID:'orcl',                        
-  dialect: "oracle",                //oracle, mysql, postgresql, mssql
+  dialect: "oracle",              
   pool: {
     max: 5,
     min: 0,
